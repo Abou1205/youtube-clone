@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.video-layout{
+    width: 100%;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    justify-content: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+body::-webkit-scrollbar{
+    background: black;
+    width: 9px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: gray;
+    border-radius: 10px;
+}
+
+
+.detail-page{
+    display: grid;
+    grid-template-columns: auto 400px;
+    
+}
+
+@media (max-width: 1000px) {
+    .detail-page{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+img{
+    max-width: none;
+}
