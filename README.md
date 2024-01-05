@@ -55,53 +55,6 @@ The project utilizes the YouTube API through RapidAPI to fetch video content and
 3. Obtain your RapidAPI key from the Dashboard.
 4. Update the getData.js file in your project with API key
 
-
-Certainly! If you are using the YouTube API through RapidAPI, you can modify the README to reflect that. Here's the updated version:
-
-```markdown
-# YouTube Clone
-
-A simple YouTube clone built with React, featuring a header component with a search bar, icons for notifications and video recording, and integrations with various libraries, including the YouTube API accessed through RapidAPI.
-
-## Table of Contents
-
-- [About](#about)
-- [Features](#features)
-- [Libraries](#libraries)
-- [YouTube API (RapidAPI)](#youtube-api-rapidapi)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Gif](#gif)
-## About
-
-This project is a basic YouTube clone created with React. It includes a header component with a search bar and icons for notifications and video recording. The project utilizes various libraries and integrates with the YouTube API through RapidAPI to fetch and display video content.
-
-## Features
-
-- Header component with YouTube logo, search bar, and icons for notifications and video recording.
-- Search functionality to navigate to the search results page.
-
-## Libraries
-
-The project uses the following libraries:
-
-- [axios](https://axios-http.com/): Promise-based HTTP client for making requests to the YouTube API through RapidAPI.
-- [millify](https://www.npmjs.com/package/millify): Utility for formatting large numbers into human-readable strings.
-- [moment](https://momentjs.com/): Library for parsing, validating, manipulating, and displaying dates and times.
-- [react-router-dom](https://reactrouter.com/): Declarative routing for React applications.
-- [react-player](https://www.npmjs.com/package/react-player): A React component for playing a variety of URLs, including YouTube videos.
-- [tailwindcss](https://tailwindcss.com/): A utility-first CSS framework for quickly building custom designs.
-- [react-icons](https://react-icons.github.io/react-icons/): A collection of popular icons as React components.
-
-## YouTube API (RapidAPI)
-
-The project utilizes the YouTube API through RapidAPI to fetch video content and search results. To use the YouTube API, you will need to obtain a RapidAPI key. Follow these steps:
-
-1. Sign up for a RapidAPI account.
-2. Subscribe to the [YouTube Data API v3](https://rapidapi.com/youtube.videos/api/youtube-data1).
-3. Obtain your RapidAPI key from the Dashboard.
-
-
 ## Installation
 
 1. Clone the repository:
