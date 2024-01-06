@@ -83,4 +83,4 @@ The project utilizes the YouTube API through RapidAPI to fetch video content and
 
 ## Gif
 
-![Gif](./src/video.gif)
+![](./src/video.gif)
