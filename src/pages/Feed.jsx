@@ -12,7 +12,7 @@ const Feed = () => {
       <SideBar />
       <div className="video-layout">
         {!videos ? (
-          <Loader/>
+          <Loader />
         ) : (
           videos.map(
             (item, i) =>

@@ -31,7 +31,9 @@ const VideoCard = ({ video, isRow }) => {
               ? richThumbnail[richThumbnail.length - 1]?.url
               : thumbnail[thumbnail.length - 1]?.url
           }
-          className={`max-w-none rounded-lg w-full ${isRow && "w-28 h-20"} `}
+          className={`rounded-lg w-full ${
+            isRow && "max-xl:w-40 max-2xl:w-40 h-22"
+          } `}
         />
       </div>
       {/* alt bilgi */}
