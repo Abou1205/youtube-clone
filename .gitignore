@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 #api key
-getData.js
+.env
