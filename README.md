@@ -2,7 +2,6 @@
 
 A simple YouTube clone built with React, featuring a header component with a search bar, icons for notifications and videos, and integrations with various libraries, including the YouTube API accessed through RapidAPI.
 
-
 ## Table of Contents
 
 - [About](#about)
@@ -21,15 +20,19 @@ The YouTube Clone project is a React-based application that mimics key features 
 ## Features
 
 - **Header Component:**
+
   - Centralized UI with YouTube logo, search bar, and icons for notifications and video recording.
 
 - **Search Functionality:**
+
   - Utilizes YouTube API (RapidAPI) for precise and up-to-date search results.
 
 - **Video Playback:**
+
   - Seamless in-app video playback using `react-player`.
 
 - **Related Videos:**
+
   - Utilizes Youtube API (RapidAPI) for showing related videos.
 
 - **Comments:**
@@ -50,17 +53,12 @@ The YouTube Clone project is a React-based application that mimics key features 
 
 The project utilizes the YouTube API through RapidAPI to fetch video content and search results. To use the YouTube API, you will need to obtain a RapidAPI key. Follow these steps:
 
-1. Sign up for a RapidAPI account.
-2. Subscribe to the [YT-API](https://rapidapi.com/ytjar/api/yt-api).
-3. Obtain your RapidAPI key from the Dashboard.
-4. Update the getData.js file in your project with API key
-
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Abou1205/YoutubeClone.git
+   git clone https://github.com/Abou1205/youtube-clone.git
    ```
 
 2. Install dependencies:
